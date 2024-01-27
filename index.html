@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <section class="flex flex-col  h-[500px] w-[600px] bg-[#f5f5f5e9] mx-auto my-[200px] shadow-md rounded-[25px] ">
+    <h1 class="text-[30px] mt-[25px] capitalize font-mono text-[#000] font-[800] text-center "> Find Student info </h1>
+    <hr class="h-[5px] w-[100%] bg-red-700 mt-[20px]">
+    <input id="student" type="text" placeholder="Enter sutdent id"
+      class="h-[80px] w-[400px] mx-auto bg-rgba mt-[40px] rounded-[25px] px-[30px] outline-none capitalize text-[#000000c8] text-[18px] opacity-75">
+    <button id="btn"
+      class="mx-auto h-[70px] w-[180px] bg-red-500 mt-[50px] text-[#000000c8] text-[18px] uppercase font-bold rounded-[30px] ">Search
+      Info</button>
+    <h3 class="mx-auto mt-[80px] text-[32px] text-[#ff6f00] capitalize font-mono "> warning id must be accurate </h3>
+  </section>
+  <script src="./tailwind.config.js" type="module"></script>
+  <script src="./scripts/script.js"></script>
+</body>
+</html>

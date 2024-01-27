@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Info</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div class="h-[500px] w-[600px] mx-auto mt-[250px] ">
+    <div id="student__card"
+      class="h-[400px] w-[600px] mx-auto mt-[250px] font-sans font-[600] overflow-hidden rounded-[25px] bg-[#ff5833] relative ">
+      <div class="h-[100px] w-auto bg-black">
+        <h1 class="text-center opacity-[0.9] text-[32px] uppercase font-[600] pt-[20px] text-[#FF5349] "> Creative It
+          institute </h1>
+      </div>
+      <img id="img" src="" alt="not available"
+        class="h-[120px] w-[120px] rounded-[2px] border border-collapse p-[3px] border-[#fff] bg-cover absolute mt-[20px] ml-[20px] bg-[#fff] ">
+      <div class="my-[10px] mb-[20px] ml-[180px] ">
+        <p class="mx-auto text-[30px]  opacity-[0.7] uppercase  ">student card</p>
+        <p id="name" class="text-[28px] mt-[10px] font-[800]  capitalize opacity-[0.7] "></p>
+        <p class="text-[28px]  font-[800]  capitalize opacity-[0.7] " id="studentId"></p>
+        <p class="text-[28px] font-[800]  capitalize opacity-[0.7] " id="isPaid"></p>
+        <p class="text-[28px] font-[800]  capitalize opacity-[0.7] " id="batch"></p>
+      </div>
+      <p class=" text-[25px] text-[#ffffffd0] font-[800] text-center mx-auto capitalize  ">
+        all right reserved sultan@2024.com
+      </p>
+    </div>
+    <button
+      class="h-[80px]  mt-[20px] mx-auto bg-black text-white w-[200px] rounded-[25px] text-[25px] capitalize border-[1px] border-solid border-transparent hover:border-black hover:bg-transparent hover:text-black transition duration-300  "
+      onclick="window.location.href='../index.html'"> Search
+      again
+    </button>
+  </div>
+  <script src="../tailwind.config.js" type="module"></script>
+  <script src="../scripts/student.js"></script>
+</body>
+</html>
